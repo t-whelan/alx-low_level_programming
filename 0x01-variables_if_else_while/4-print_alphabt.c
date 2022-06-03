@@ -2,16 +2,22 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: prints char below 10
+ * Description: prints lowercase alphabets
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int a;
+	int ch;
 
-	for (a = 0; a < 10; a++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(a + '0');
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
+		else
+		{
+		}
 	}
 	putchar('\n');
 	return (0);
