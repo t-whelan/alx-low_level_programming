@@ -1,13 +1,19 @@
-/*
- * File: 0-putchar.c
- *
- */
-
 #include <stdio.h>
+#include "main.h"
 
 /**
-*/ int main(void)
+ * main - Check description
+ * Description: It prints _putchar, followed by a new line.
+ * Return: 0.
+ */
+int main(void)
+{
+	char word[9] = "Holberton";
+	int i;
+
+	for (i = 0; i < 9; i++)
+		_putchar(word[i]);
 	_putchar('\n');
 
 	return (0);
-} 
+}
