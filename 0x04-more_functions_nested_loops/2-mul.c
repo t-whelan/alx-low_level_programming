@@ -1,11 +1,14 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
- * mul - function that prints the numbers, from 0 to 9, followed by a new line.
- * @a: the int for the paramaters of my function
- * @b: the int for the paramaters of my function
- * Return: 0
+ * mul - Multiply 2 integers.
+ *@x: The first number to multiply
+ *@y: The second number to multiply with first number
+ *
+ *Return: The result of multiplication between x param and y param
  */
-int mul(int a, int b)
+int mul(int x, int y)
 {
-	return (a * b);
+        return (x * y);
 }
