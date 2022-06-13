@@ -1,0 +1,14 @@
+#include "main.h"
+#include <stdio.h>
+#ifndef MAIN_H_ 
+#define MAIN_H_
+
+         
+/**
+ *main - check the code for alx student projects.
+ *
+ *Return: Always 0 .
+ */
+
+
+#endif
