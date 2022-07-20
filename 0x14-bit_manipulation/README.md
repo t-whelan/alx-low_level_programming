@@ -1,1 +1,1 @@
-Bit manipulation with C
+Project on bit manipulation in C
